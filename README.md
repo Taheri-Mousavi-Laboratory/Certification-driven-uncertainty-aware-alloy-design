@@ -5,8 +5,8 @@ the sensitivity analysis without installing Python.
 
 ### Download
 - Go to the **Releases** page:
-  https://github.com/<your-username>/<your-repo>/releases
-- Download `Alloy718SensitivityDemo.exe`
+  https://github.com/Hasan-024/Uncertainty-aware-inverse-design-of-alloys/releases)
+- Download `Alloy718_Local_Sensitivity_Demo.exe`
 
 ### Usage
 1. Double-click the executable
