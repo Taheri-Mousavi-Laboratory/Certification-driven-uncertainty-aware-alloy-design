@@ -1,6 +1,0 @@
-This folder contains the python source scripts to conduct the following the tasks:
-1) Estimating yield strength of Alloy 718 using physics-informed strengthening models,
-2) Training a Polynomial Chaos Expansion (PCE) surrogate model,
-3) Validating the surrogate against experimental data and calibrating uncertainty using Bayesian calibration,
-4) Performing inverse design of robust composition windows using Bayesian optimization (BayBE),
-5) Extracting and visualizing Pareto-optimal design windows.
