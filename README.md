@@ -190,10 +190,6 @@ All dependencies are managed via `ML_env.yml`. Key packages:
 | `matplotlib` / `seaborn` | Visualization |
 | `scipy` | Statistical utilities |
 
-## License
-
-This project is released under the [MIT License](LICENSE).
-
 ---
 
 ## Contact
