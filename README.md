@@ -1,4 +1,4 @@
-# Uncertainty-Aware Inverse Design of Alloys
+# Certifcation-driven uncertainty-aware alloy design
 
 > A machine learning framework for **uncertainty-quantified forward prediction** and **inverse design** of alloy compositions — demonstrated on Ni-based superalloys (Alloy 718).
 
