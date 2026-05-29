@@ -3,7 +3,6 @@
 > A machine learning framework for **uncertainty-quantified forward prediction** and **inverse design** of alloy compositions — demonstrated on Ni-based superalloys (Alloy 718).
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)]()
 
 ---
