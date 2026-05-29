@@ -27,10 +27,10 @@ import arviz as az
 RNG_SEED = 42
 
 # Inputs
-DATA_PATH = Path("data/Experimental yield strength of Alloy 718.csv")
+DATA_PATH = Path("../Data/Experimental yield strength of Alloy 718.csv")
 
 # Trained surrogate model (exported from the surrogate training script)
-SURROGATE_MODEL_PATH = Path("pce_surrogate.pkl")
+SURROGATE_MODEL_PATH = Path("../Model/pce_surrogate.pkl")
 
 COMP_COLS = ["Ni", "Cr", "Nb", "Al", "Ti", "Co", "Mo"]
 TARGET_COL = "Yield strength (MPa)"
