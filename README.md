@@ -23,7 +23,7 @@ The framework is designed to be **adaptable**: researchers can substitute their 
 
 ## Repository Structure
 
-
+```
 Uncertainty-aware-inverse-design-of-alloys/
 │
 ├── Data/                                    # Data directory (dataset not included — see note below)
@@ -55,7 +55,7 @@ Uncertainty-aware-inverse-design-of-alloys/
 │
 ├── ML_env.yml                               # Conda environment specification
 └── README.md
-
+```
 ## Getting Started
 
 ### 1. Clone the repository
