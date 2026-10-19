@@ -4,6 +4,8 @@ This repository contains the code accompanying the manuscript to estimate the **
 For each alloy composition, it calculates four strengthening contributions and adds them together:
 
 Details of v1:
+
+
 $$
 \sigma_y = \sqrt{\sigma_{\text{Orowan}}^2 + \sigma_{\text{coh}}^2} + \sigma_{ss} + \sigma_{HP}
 $$
