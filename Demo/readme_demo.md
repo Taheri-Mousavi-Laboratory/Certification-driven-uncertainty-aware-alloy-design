@@ -1,6 +1,6 @@
 # Demo Notebooks
 
-This folder contains two demo notebooks for using a trained Polynomial Chaos Expansion (PCE) surrogate model for Alloy 718 inverse design and sensitivity analysis.
+This folder contains three demo notebooks for Alloy 718. Two use a trained Polynomial Chaos Expansion (PCE) surrogate model for inverse design and sensitivity analysis, and one demonstrates the physics-based yield strength model.
 
 The notebooks show how the surrogate model can be used to identify robust alloy composition windows and evaluate the local effect of compositional changes on predicted yield strength.
 
@@ -104,3 +104,23 @@ The local sensitivity notebook may generate files such as:
 * `local_sensitivity_results.csv`
 * `local_sensitivity_plot.png`
 
+## Demo_Yield Strength Model.ipynb
+
+A demo notebook, `Demo_yield_strength_model.ipynb`, has been added to show how to run the physics-based yield strength model. It does not use the PCE surrogate.
+
+### Inputs
+
+* CALPHAD-derived phase data for each composition:
+  * Composition (mass fractions of `Ni, Cr, Nb, Mo, Ti, Al, Co`, with Fe as balance)
+  * γ′, γ″ and γ matrix phase fractions
+  * γ′, γ″ and matrix lattice parameters
+  * Solid-solution strength
+* A fixed grain size (µm) for the Hall–Petch contribution
+
+If no phase data is provided, randomly generated placeholder data is used to demonstrate the workflow.
+
+### Outputs
+
+* A table (`yield_strength_results.csv`) with, for each composition:
+  * Hall–Petch, solid-solution, γ′ (Orowan) and γ″ (coherency) strength contributions
+  * Total yield strength
