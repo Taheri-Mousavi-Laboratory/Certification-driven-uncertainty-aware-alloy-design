@@ -1,1 +1,22 @@
+Alloy-718 Yield Strength model
 
+This repository contains the code accompanying the manuscript
+
+The model estimates the room-temperature yield strength of Alloy-718 type nickel superalloys from CALPHAD-derived phase fraction data. 
+For each alloy composition, it calculates four strengthening contributions and adds them together:
+
+Details of v1:
+
+Orowan strengthening from γ′ precipitates
+Coherency-strain strengthening from γ″ precipitates
+Solid-solution strengthening of the γ matrix
+Hall–Petch (grain-boundary) strengthening for a fixed grain size
+
+The output is a table of each contribution and the total yield strength for every composition.
+
+No real data is included. Run without inputs, the script uses randomly generated placeholder data to demonstrate the workflow.
+
+For details of the method, see the Supplementary Information of the manuscript.
+
+
+Details of v2:
