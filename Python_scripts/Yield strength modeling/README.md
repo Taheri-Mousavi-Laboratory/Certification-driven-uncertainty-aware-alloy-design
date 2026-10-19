@@ -5,7 +5,7 @@ This repository contains the code accompanying the manuscript to estimate the
 CALPHAD-derived phase fraction data. For each alloy composition, four
 strengthening contributions are calculated and added together.
 
-### Details of v1
+### Overview
 
 The yield strength is obtained as the sum of the Hall–Petch, solid-solution and
 precipitate contributions:
@@ -29,10 +29,6 @@ $$
 
 The output is a table listing each contribution and the total yield strength
 for every composition.
-
-### Details of v2
-
-*To be added.*
 
 > [!NOTE]
 > No real data is included in this repository. When run without inputs, the
